@@ -36,7 +36,7 @@ You can specify how many pagers occuring in your page, or showing all of them by
    $showPaging = new Paging($totalRows, $currentPage, $pageSize);
   ```
 
-6. If you have nore than ten pages, I guess you don't want showing all of the numbers, such as:
+6. If you have nore than ten pages, I guess you don't want showing all of the numbers, it could look like that:
    
    ``` First < 1 2 3 4 5 6 7 8 9 10 11 12 ... > Last ```
 
