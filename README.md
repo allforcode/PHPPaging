@@ -33,7 +33,7 @@ You can specify how many pagers occuring in your page, or showing all of them by
 5. Declaring a paging object, passing the 3 prameters, for instance:
 
   ```php 
-   $showContent = new Paging($totalRows, $currentPage, $pageSize);
+   $showPaging = new Paging($totalRows, $currentPage, $pageSize);
   ```
 
 6. If you have nore than ten pages, I guess you don't want showing all of the numbers, such as:
@@ -43,7 +43,7 @@ You can specify how many pagers occuring in your page, or showing all of them by
   It is better to specify how many pager occuring in the list, using: 
 
   ```php
-  $showContent->setAllowedPager(5);
+  $showPaging->setAllowedPager(5);
   ```
       
   the result should be look like:
@@ -53,7 +53,7 @@ You can specify how many pagers occuring in your page, or showing all of them by
 7. Final step is to output the page list:
 		
   ```php
-  $showContent->getPaging();
+  $showPaging->getPaging();
   ```
 
 **For styling, you can simply change the paging.css file.**
