@@ -6,7 +6,7 @@ The page list is composed of the links of ```First```, ```<```(previous page), `
 You can specify how many pagers occuring in your page, or show all of them by default.
  
 ##How to use:
-   Assuming you have already connected with your databas:
+   Assuming you have already connected with your database:
 
 1. In your PHP page, firstly initialize a current page variable by
 
