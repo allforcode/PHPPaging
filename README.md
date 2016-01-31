@@ -3,7 +3,7 @@
 This is a simple PHP class for paing the data source retrieved form database. You are welcomed to use it as a start point, customizing or changing both class and style files based on your needs.
 
 The page list is composed of the links of ```First```, ```<```(previous page), ```1 2 3 4```(page numbers), ```>``` (next page) and ```Last```. 
-You can specify how many pagers occuring in your page, or showing all of them by default.
+You can specify how many pagers occuring in your page, or show all of them by default.
  
 ##How to use:
    Assuming you have already connect with your databas:
