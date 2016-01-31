@@ -15,7 +15,7 @@ You can specify how many pagers occuring in your page, or showing all of them by
 2. Geting $totalRows by querying ``` SELECT count(*) as 'num' FROM <Your Table Name>;```
 
   The query will not return the number of row directly, the return value really depends on how does in your code logic. Anyway, finding
-  an appropriate way to assign the total number of rows to $totalRows
+  an appropriate way to assign the total number of rows to ```$totalRows```
 
 3. Seting the number of rows you want occuring in each page, for example:
    
