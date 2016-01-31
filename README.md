@@ -46,9 +46,7 @@ You can specify how many pagers occuring in your page, or showing all of them by
   $showPaging->setAllowedPager(5);
   ```
       
-  the result should be look like:
- 
-    ```First < 6 7 8 9 10 > Last```
+  the result should be look like: ```First < 6 7 8 9 10 > Last```
 
 7. Final step is to output the page list:
 		
