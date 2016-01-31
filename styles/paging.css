@@ -1,0 +1,38 @@
+.paging{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.paging ul{
+	margin: 0;
+}
+
+.paging ul>li{
+	list-style-type: none;
+	float: left;
+	margin: 10px;
+	padding: 2px;
+}
+
+.paging ul>li,
+.paging ul>li>a{
+	display: inline-block;
+	font-size: 15px;
+	min-width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.paging ul>li>a{
+	color: #0080FF;
+	font-weight: 600;
+}
+.paging ul>li.current-page{
+	border-bottom: 1px solid #0080FF;
+}
+
+.paging ul>li>a:hover{
+	border-bottom: 2px solid #0080FF;
+	text-decoration: none;
+}
