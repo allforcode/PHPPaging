@@ -59,6 +59,6 @@ You can specify how many pagers occuring in your page, or show all of them by de
 
 _The class is customized from an online tutorial conducted by Jun Xiang (www.houdunwang.com)_
 
-*@author     Po Dong <pingheng2008@gmail.com>*
+*@author     Paul Dong <pingheng2008@gmail.com>*
 
 *@version    1.0 (31/Jan/2016)*
